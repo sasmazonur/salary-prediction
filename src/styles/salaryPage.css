@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.form-container {
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #7ab731;
+  color: white;
+}
+
+button:disabled {
+  cursor: default;
+}
